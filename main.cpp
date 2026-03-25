@@ -16,7 +16,7 @@ int main()
 
     // TODO
     if ( weight <= 0 || weight > 20 || distance < 10 || distance > 3000){
-        cout << "Wrong input" << endl;
+        cout << "Invalid input" << endl;
         return 1;
     }
 
