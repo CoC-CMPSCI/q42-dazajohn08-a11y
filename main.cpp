@@ -12,7 +12,8 @@ int main()
     double weight, distance, rate;
 
     cout << "Enter the package weight and distance: ";
-    cin >> weight >> distance;
+    cin >> weight;
+    cin >> distance;
 
     // TODO
     if ( weight <= 0 || weight > 20 || distance < 10 || distance > 3000){
